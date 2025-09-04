@@ -18,5 +18,6 @@ public class BasicProcessorTest {
         Assert.assertEquals(new BasicProcessor().getConsecutiveChar("aabcccbbad"),"ccc");
         Assert.assertEquals(new BasicProcessor().getConsecutiveChar("aabbbad"),"bbb");
         Assert.assertEquals(new BasicProcessor().getConsecutiveChar("aaad"),"aaa");
+
     }
 }
