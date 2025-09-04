@@ -17,5 +17,6 @@ public class AdvanceProcessorTest {
         Assert.assertEquals(new AdvanceProcessor().getReplaceChar("cccb"),"b");
         Assert.assertEquals(new AdvanceProcessor().getReplaceChar("bbb"),"a");
         Assert.assertEquals(new AdvanceProcessor().getReplaceChar("aaa"),"");
+
     }
 }
